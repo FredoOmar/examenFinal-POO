@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 import java.time.Instant;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class GestionNotesTest {
+public class GestionNotesTestUnit {
     private GestionNotes gestionNotes;
     private Enseignant enseignant;
     private Cours coursProg2;
@@ -19,7 +19,7 @@ public class GestionNotesTest {
     void setUp() {
         gestionNotes = new GestionNotes();
 
-        enseignant = new Enseignant(1, "Dupont", "Pierre",
+        enseignant = new Enseignant: (1, "Dupont", "Pierre",
                 LocalDate.of(1975, 5, 15),
                 "p.dupont@ecole.fr", "0123456789", "Back-end");
 
